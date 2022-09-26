@@ -1,0 +1,107 @@
+:root {
+    --bgColor: #E8EFF5;
+    --lightText: #0E192E;
+    --bgSesrch: #D8E1EA;
+    --bgSesrchTxt: #878C9E;
+    --buttonColor: #2A79CC;
+    --buttonTxt: #FFFFFF;
+
+}
+header {
+    background: var(--bgColor);
+    height: 171px;
+}
+
+.link {
+    color: var(--lightText);
+    text-decoration: none;
+    display: block;
+    float: left;
+    line-height: 24px;
+}
+
+
+.mnu_top {
+    list-style-type: none;
+    padding-left: 960px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.logo {
+    width: 190px;
+    height: 107px;
+    position: relative;
+    top: 32px;
+    left: 300px;
+}
+.kist {
+    width: 1320px;
+    height: 881px;
+    top: 49px;
+    position: relative;
+    left: 300px;
+    padding: 20px 0;
+}
+.emal {
+    color: var(--lightText);
+    text-decoration: none;
+    font-size: 12px;
+}
+.kraski {
+    color: var(--lightText);
+    text-decoration: none;
+    font-size: 12px;
+}
+.zahita {
+    color: var(--lightText);
+    text-decoration: none;
+    font-size: 12px;
+}
+.kley {
+    color: var(--lightText);
+    text-decoration: none;
+    font-size: 12px;
+}
+.instrument {
+    color: var(--lightText);
+    text-decoration: none;
+    font-size: 12px;
+}
+.okno {
+    color: var(--lightText);
+    text-decoration: none;
+    font-size: 12px;
+}
+.ctroitelnye {
+    color: var(--lightText);
+    text-decoration: none;
+    font-size: 12px;
+}
+.krepezh {
+    color: var(--lightText);
+    text-decoration: none;
+    font-size: 12px;
+}
+.hoztovar {
+    color: var(--lightText);
+    text-decoration: none;
+    font-size: 12px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 424px 1fr ;
+    grid-template-rows: 420px 420px 420px;
+    gap: 24px 32px ;
+    position: relative;
+    left: 300px;
+
+}
+.grid__cover {
+    position: relative;
+    overflow: hidden;
+}
+.zag {
+    position: relative;
+    left: 300px;
+    text-align: center;
+}
